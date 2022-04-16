@@ -24,8 +24,8 @@ index = {"transform": "00_core.ipynb",
 
 modules = ["core.py"]
 
-doc_url = "https://{markb2}.github.io/{flax_experiments}/"
+doc_url = "https://markb2.github.io/flax_experiments/"
 
-git_url = "https://github.com/{markb2}/{flax_experiments}/tree/{master}/"
+git_url = "https://github.com/markb2/flax_experiments/tree/master/"
 
 def custom_doc_links(name): return None
