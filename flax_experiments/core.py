@@ -30,8 +30,6 @@ import flax.training.train_state as train_state
 import optax
 from optax import sgd, softmax_cross_entropy
 
-%matplotlib inline
-
 # Cell
 def transform(img):
     return np.array(img, dtype=np.float32).reshape(28, 28, 1) / 255.0
