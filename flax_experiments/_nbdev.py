@@ -14,15 +14,33 @@ index = {"transform": "00_core.ipynb",
          "show_batch": "00_core.ipynb",
          "labels_map": "00_core.ipynb",
          "empty": "00_core.ipynb",
-         "ConvBlock": "00_core.ipynb",
+         "ConvBlock": "03_model.ipynb",
          "ConvMNIST": "00_core.ipynb",
          "TrainState": "00_core.ipynb",
          "create_state": "00_core.ipynb",
          "compute_metrics": "00_core.ipynb",
          "train_step": "00_core.ipynb",
-         "train_epoch": "00_core.ipynb"}
+         "train_epoch": "00_core.ipynb",
+         "get_config": "01_dataloaders.ipynb",
+         "get_dataloader": "01_dataloaders.ipynb",
+         "OK": "02_experiment.ipynb",
+         "Wrong": "02_experiment.ipynb",
+         "init": "03_model.ipynb",
+         "scale": "03_model.ipynb",
+         "default_kernel_init": "03_model.ipynb",
+         "conv": "03_model.ipynb",
+         "pw_conv": "03_model.ipynb",
+         "sw_drop": "03_model.ipynb",
+         "norm": "03_model.ipynb",
+         "Stem": "03_model.ipynb",
+         "Head": "03_model.ipynb",
+         "ConvNeXt": "03_model.ipynb"}
 
-modules = ["core.py"]
+modules = ["core.py",
+           "dataloaderes.py",
+           "exp.py",
+           "model.py",
+           "train.py"]
 
 doc_url = "https://markb2.github.io/flax_experiments/"
 

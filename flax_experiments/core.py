@@ -129,6 +129,7 @@ class ConvBlock(nn.Module):
 
 # Cell
 class ConvMNIST(nn.Module):
+    ' comment'
     features : Sequence[int] = (32,64,256,512,1024,10)
     activation : Callable = nn.relu
     norm : Union[Callable,None] = nn.BatchNorm

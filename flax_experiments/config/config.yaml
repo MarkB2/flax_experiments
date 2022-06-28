@@ -1,0 +1,10 @@
+dataset:
+  name: IMAGENETTE_160
+  valid_name: 'val'
+  item_tfms:
+    _target_: fastai.vision.augment.RandomResizedCrop
+    size: 128
+    min_scale: 0.35
+  batch_tfms:
+    _target_: fastai.vision.augment.aug_transforms
+  
